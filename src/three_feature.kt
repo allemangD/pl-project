@@ -16,8 +16,10 @@ fun main(args: Array<String>) {
         // This is very brittle, though, if improperly formatted
         val (rawCourse, rawGrade) = it.split(":")
 
+        // use `trim()` to strip whitespace from either side of the strings
+        // string conversion is easy with helper methods like `toInt()` and `toIntOrNull()`
         val course = rawCourse.trim()
-        val grade = rawGrade.trim().toInt()  // string conversion is easy with helper methods like `toInt()` and `toIntOrNull()`
+        val grade = rawGrade.trim().toInt()
 
         // collection testing is easy with `in` and `!in` operators
         if (course !in courses)
