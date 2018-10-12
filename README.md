@@ -12,6 +12,12 @@ Create a program (or programs) which show how the language you picked (Kotlin) w
 
 Accepts a file `sample.grades` where each line is an assignment in the format: `<course name>: <grade>`. The program iterates through the file and computes the average and letter grades for all courses listed in `sample.grades`.
 
+### File links
+[`sample.grades`](https://github.com/allemangD/pl-project/blob/master/res/sample.grades)  
+[`three_feature.kt`](https://github.com/allemangD/pl-project/blob/master/src/three_feature.kt)
+
+### Language features
+
 Language structures used include:
 
 * Iterable unpacking
