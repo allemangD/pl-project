@@ -45,6 +45,7 @@ fun main(args: Array<String>) {
         }
 
         // input and output from console are as easy as `println()` and `readline()`
+        // uses string interpolation for easier formatting
         println("$course:\n\t$letter ($average)\n")
     }
 }
