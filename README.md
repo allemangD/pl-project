@@ -27,6 +27,8 @@ Language structures used include:
 * Actions (as in `file.forEachLine`)
 * Pattern matching (simple example using `when` expression)
 * String interpolation
+* Classes, methods
+* Extension methods
 
 Kotlin library features used include:
 
